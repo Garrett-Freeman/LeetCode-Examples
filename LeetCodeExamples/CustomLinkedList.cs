@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace LeetCodeExamples
 {
+    /// <summary>
+    /// Linked Lists are a data structure that consists of a sequence of elements where each element points to the next element in the sequence.
+    /// It is great for when you need to insert or delete elements like a queue but not so great for searching for elements.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class CustomLinkedList<T>
     {
         public class Node
@@ -57,6 +62,8 @@ namespace LeetCodeExamples
 
         /// <summary>
         /// Reverses the linked list iteratively
+        /// O(n) time complexity because we iterate through the linked list
+        /// O(1) space complexity because we only use a few pointers
         /// </summary>
         /// <param name="head"></param>
         /// <returns></returns>
@@ -79,6 +86,8 @@ namespace LeetCodeExamples
 
         /// <summary>
         /// Reverses the linked list iteratively
+        /// O(n) time complexity because we iterate through the linked list
+        /// O(1) space complexity because we only use a few pointers
         /// </summary>
         /// <param name="node"></param>
         /// <returns></returns>
@@ -122,6 +131,8 @@ namespace LeetCodeExamples
 
         /// <summary>
         /// Gets the node at a specific index starting at 0
+        /// O(n) time complexity because we iterate through the linked list
+        /// O(1) space complexity because we only use a few pointers
         /// </summary>
         /// <param name="head"></param>
         /// <param name="index"></param>
